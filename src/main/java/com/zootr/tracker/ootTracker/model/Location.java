@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Location {
 	
-	private EntranceType type;
+	private LocationType type;
 	@JsonProperty("location")
 	private String name;
 	
@@ -14,11 +14,11 @@ public class Location {
 		super();
 	}
 
-	public EntranceType getType() {
+	public LocationType getType() {
 		return type;
 	}
 
-	public void setType(EntranceType type) {
+	public void setType(LocationType type) {
 		this.type = type;
 	}
 

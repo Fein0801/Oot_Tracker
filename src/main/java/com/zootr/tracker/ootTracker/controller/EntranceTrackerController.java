@@ -1,4 +1,4 @@
-package com.zootr.tracker.ootTracker;
+package com.zootr.tracker.ootTracker.controller;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,6 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.zootr.tracker.ootTracker.EntranceTracker;
 import com.zootr.tracker.ootTracker.model.Entrance;
 import com.zootr.tracker.ootTracker.model.EntranceRuleSet;
 import com.zootr.tracker.ootTracker.model.Location;
@@ -53,7 +54,14 @@ public class EntranceTrackerController {
 	}
 	
 	@RequestMapping("/")
-	public ModelAndView home(@RequestParam("rules") EntranceRuleSet ruleSet) {
-		return null;
+	public ModelAndView home() {
+		return new ModelAndView("tracker");
+	}
+	
+	@RequestMapping("/set-rules")
+	public ModelAndView setRules(@RequestParam("rules") EntranceRuleSet rules) {
+		tracker.setRules(rules);
+		System.out.println(tracker.getRules());
+		return new ModelAndView("redirect:/");
 	}
 }

@@ -4,16 +4,16 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Region {
+public class Region extends Location {
 
+	public static final LocationType TYPE = LocationType.REGION;
 	@JsonProperty("to")
 	private String region;
 	@JsonProperty("from")
 	private String origin;
 
 	public Region() {
-		super();
-		// TODO Auto-generated constructor stub
+		super.setType(TYPE);
 	}
 
 	public String getRegion() {
