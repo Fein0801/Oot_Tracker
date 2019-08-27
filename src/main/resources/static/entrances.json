@@ -1,0 +1,684 @@
+{
+	"entrances": {
+		"dungeons": [
+			{
+				"type": "DUNGEON",
+				"entrance": "Desert Colossus -> Spirit Temple Lobby"
+			},
+			{
+				"type": "DUNGEON",
+				"entrance": "Dodongos Cavern Entryway -> Dodongos Cavern Beginning"
+			},
+			{
+				"type": "DUNGEON",
+				"entrance": "Fire Temple Entrance -> Fire Temple Lower"
+			},
+			{
+				"type": "DUNGEON",
+				"entrance": "Gerudo Fortress -> Gerudo Training Grounds Lobby"
+			},
+			{
+				"type": "DUNGEON",
+				"entrance": "Kakariko Village -> Bottom of the Well"
+			},
+			{
+				"type": "DUNGEON",
+				"entrance": "Lake Hylia -> Water Temple Lobby"
+			},
+			{
+				"type": "DUNGEON",
+				"entrance": "Outside Deku Tree -> Deku Tree Lobby"
+			},
+			{
+				"type": "DUNGEON",
+				"entrance": "Sacred Forest Meadow -> Forest Temple Lobby"
+			},
+			{
+				"type": "DUNGEON",
+				"entrance": "Shadow Temple Warp Region -> Shadow Temple Entryway"
+			},
+			{
+				"type": "DUNGEON",
+				"entrance": "Zoras Fountain -> Ice Cavern Beginning"
+			},
+			{
+				"type": "DUNGEON",
+				"entrance": "Zoras Fountain -> Jabu Jabus Belly Beginning"
+			}
+		],
+		"grottos": [
+			{
+				"type": "GROTTO",
+				"entrance": "Death Mountain -> Mountain Storms Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Death Mountain Crater Lower Nearby -> DMC Hammer Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Death Mountain Crater Upper Nearby -> Top of Crater Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Death Mountain Summit -> Mountain Bombable Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Desert Colossus -> Desert Colossus Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Gerudo Fortress -> Gerudo Fortress Storms Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Gerudo Valley -> Gerudo Valley Octorok Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Gerudo Valley Far Side -> Gerudo Valley Storms Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Goron City -> Goron City Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Graveyard -> Composer Grave"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Graveyard -> Heart Piece Grave"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Graveyard -> Shield Grave"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Hyrule Castle Grounds -> Castle Storms Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Hyrule Field -> Field Far West Castle Town Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Hyrule Field -> Field Kakariko Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Hyrule Field -> Field Near Lake Inside Fence Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Hyrule Field -> Field Near Lake Outside Fence Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Hyrule Field -> Field North Lon Lon Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Hyrule Field -> Field Valley Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Hyrule Field -> Field West Castle Town Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Hyrule Field -> Remote Southern Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Kakariko Village -> Kakariko Bombable Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Kakariko Village Backyard -> Kakariko Back Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Kokiri Forest -> Kokiri Forest Storms Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Lake Hylia -> Lake Hylia Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Lon Lon Ranch -> Lon Lon Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Lost Woods -> Lost Woods Generic Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Lost Woods Beyond Mido -> Deku Theater"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Lost Woods Beyond Mido -> Lost Woods Sales Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Sacred Forest Meadow -> Meadow Fairy Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Sacred Forest Meadow -> Meadow Storms Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Sacred Forest Meadow Entryway -> Front of Meadow Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Zora River -> Zora River Plateau Bombable Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Zora River -> Zora River Plateau Open Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Zora River -> Zora River Storms Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"entrance": "Zoras Domain -> Zoras Domain Storms Grotto"
+			}
+		],
+		"indoors": [
+			{
+				"type": "INDOOR",
+				"entrance": "Castle Town -> Castle Town Bazaar"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Castle Town -> Castle Town Bombchu Bowling"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Castle Town -> Castle Town Bombchu Shop"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Castle Town -> Castle Town Man in Green House"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Castle Town -> Castle Town Mask Shop"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Castle Town -> Castle Town Potion Shop"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Castle Town -> Castle Town Shooting Gallery"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Castle Town -> Castle Town Treasure Chest Game"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Castle Town Entrance -> Castle Town Rupee Room"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Death Mountain Crater Lower Nearby -> Crater Fairy"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Death Mountain Summit -> Mountain Summit Fairy"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Desert Colossus -> Colossus Fairy"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Ganons Castle Grounds -> Ganons Castle Fairy"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Gerudo Valley Far Side -> Carpenter Tent"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Goron City -> Goron Shop"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Graveyard -> Dampes House"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Hyrule Castle Grounds -> Hyrule Castle Fairy"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Kakariko Impa Ledge -> Impas House Back"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Kakariko Village -> Carpenter Boss House"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Kakariko Village -> House of Skulltula"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Kakariko Village -> Impas House"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Kakariko Village -> Kakariko Bazaar"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Kakariko Village -> Kakariko Shooting Gallery"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Kakariko Village Backyard -> Odd Medicine Building"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Kokiri Forest -> House of Twins"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Kokiri Forest -> Know It All House"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Kokiri Forest -> Kokiri Shop"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Kokiri Forest -> Mido House"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Kokiri Forest -> Saria House"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Lake Hylia -> Fishing Hole"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Lake Hylia -> Lake Hylia Lab"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Lon Lon Ranch -> Ingo Barn"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Lon Lon Ranch -> Lon Lon Corner Tower"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Lon Lon Ranch -> Talon House"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Zoras Domain -> Zora Shop"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Zoras Fountain -> Zoras Fountain Fairy"
+			}
+		],
+		"overworld": []
+	},
+	"locations": {
+		"dungeons": [
+			{
+				"type": "DUNGEON",
+				"location": "Deku Tree Lobby"
+			},
+			{
+				"type": "DUNGEON",
+				"location": "Dodongos Cavern Beginning"
+			},
+			{
+				"type": "DUNGEON",
+				"location": "Jabu Jabus Belly Beginning"
+			},
+			{
+				"type": "DUNGEON",
+				"location": "Forest Temple Lobby"
+			},
+			{
+				"type": "DUNGEON",
+				"location": "Fire Temple Lower"
+			},
+			{
+				"type": "DUNGEON",
+				"location": "Ice Cavern Beginning"
+			},
+			{
+				"type": "DUNGEON",
+				"location": "Water Temple Lobby"
+			},
+			{
+				"type": "DUNGEON",
+				"location": "Bottom of the Well"
+			},
+			{
+				"type": "DUNGEON",
+				"location": "Shadow Temple Entryway"
+			},
+			{
+				"type": "DUNGEON",
+				"location": "Spirit Temple Lobby"
+			},
+			{
+				"type": "DUNGEON",
+				"location": "Gerudo Training Grounds Lobby"
+			}
+		],
+		"grottos": [
+			{
+				"type": "GROTTO",
+				"location": "Gerudo Valley Storms Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Zora River Plateau Open Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Field Far West Castle Town Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Zora River Plateau Bombable Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Mountain Bombable Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Remote Southern Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Kakariko Bombable Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Field Kakariko Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Field Near Lake Outside Fence Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Zoras Domain Storms Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Lost Woods Sales Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Field West Castle Town Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Lake Hylia Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "DMC Hammer Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Gerudo Fortress Storms Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Deku Theater"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Meadow Storms Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Field Valley Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Zora River Storms Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Mountain Storms Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Lon Lon Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Desert Colossus Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Kokiri Forest Storms Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Composer Grave"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Castle Storms Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Lost Woods Generic Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Goron City Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Meadow Fairy Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Heart Piece Grave"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Gerudo Valley Octorok Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Front of Meadow Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Kakariko Back Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Field Near Lake Inside Fence Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Top of Crater Grotto"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Shield Grave"
+			},
+			{
+				"type": "GROTTO",
+				"location": "Field North Lon Lon Grotto"
+			}
+		],
+		"indoors": [
+			{
+				"type": "INDOOR",
+				"location": "Crater Fairy"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Kakariko Bazaar"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Carpenter Tent"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Lon Lon Corner Tower"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Carpenter Boss House"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Castle Town Treasure Chest Game"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Hyrule Castle Fairy"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Castle Town Bombchu Shop"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Mido House"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Impas House Back"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Mountain Summit Fairy"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Impas House"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Dampes House"
+			},
+			{
+				"type": "INDOOR",
+				"location": "House of Skulltula"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Know It All House"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Kokiri Shop"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Castle Town Bazaar"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Ganons Castle Fairy"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Castle Town Bombchu Bowling"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Talon House"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Castle Town Potion Shop"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Castle Town Man in Green House"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Ingo Barn"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Saria House"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Zora Shop"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Kakariko Shooting Gallery"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Odd Medicine Building"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Castle Town Shooting Gallery"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Zoras Fountain Fairy"
+			},
+			{
+				"type": "INDOOR",
+				"location": "House of Twins"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Lake Hylia Lab"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Goron Shop"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Castle Town Rupee Room"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Fishing Hole"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Colossus Fairy"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Castle Town Mask Shop"
+			}
+		],
+		"overworld": []
+	}
+}
