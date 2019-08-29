@@ -3,7 +3,7 @@ package com.zootr.tracker.ootTracker.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Entrance {
+public class Entrance implements Comparable<Entrance> {
 
 	private EntranceType type;
 	private String entrance;
@@ -26,6 +26,11 @@ public class Entrance {
 
 	public void setEntrance(String entrance) {
 		this.entrance = entrance;
+	}
+
+	@Override
+	public int compareTo(Entrance o) {
+		return this.entrance.compareTo(o.getEntrance());
 	}
 	
 }

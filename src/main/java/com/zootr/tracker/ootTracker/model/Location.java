@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Location {
+public class Location implements Comparable<Location>{
 	
 	private LocationType type;
 	@JsonProperty("location")
@@ -12,6 +12,12 @@ public class Location {
 	
 	public Location() {
 		super();
+	}
+	
+	public Location(LocationType type, String name) {
+		super();
+		this.type = type;
+		this.name = name;
 	}
 
 	public LocationType getType() {
@@ -28,5 +34,10 @@ public class Location {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	@Override
+	public int compareTo(Location o) {
+		return this.name.compareTo(o.getName());
 	}	
 }

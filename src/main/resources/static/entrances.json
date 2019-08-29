@@ -287,7 +287,15 @@
 			},
 			{
 				"type": "INDOOR",
+				"entrance": "Kakariko Village -> Kakariko Potion Shop Front"
+			},
+			{
+				"type": "INDOOR",
 				"entrance": "Kakariko Village Backyard -> Odd Medicine Building"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Kakariko Village Backyard -> Kakariko Potion Shop Back"
 			},
 			{
 				"type": "INDOOR",
@@ -312,6 +320,10 @@
 			{
 				"type": "INDOOR",
 				"entrance": "Lake Hylia -> Fishing Hole"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Kokiri Forest -> Links House"
 			},
 			{
 				"type": "INDOOR",
@@ -344,31 +356,31 @@
 		"dungeons": [
 			{
 				"type": "DUNGEON",
-				"location": "Deku Tree Lobby"
+				"location": "Deku Tree"
 			},
 			{
 				"type": "DUNGEON",
-				"location": "Dodongos Cavern Beginning"
+				"location": "Dodongos Cavern"
 			},
 			{
 				"type": "DUNGEON",
-				"location": "Jabu Jabus Belly Beginning"
+				"location": "Jabu Jabus Belly"
 			},
 			{
 				"type": "DUNGEON",
-				"location": "Forest Temple Lobby"
+				"location": "Forest Temple"
 			},
 			{
 				"type": "DUNGEON",
-				"location": "Fire Temple Lower"
+				"location": "Fire Temple"
 			},
 			{
 				"type": "DUNGEON",
-				"location": "Ice Cavern Beginning"
+				"location": "Ice Cavern"
 			},
 			{
 				"type": "DUNGEON",
-				"location": "Water Temple Lobby"
+				"location": "Water Temple"
 			},
 			{
 				"type": "DUNGEON",
@@ -376,15 +388,15 @@
 			},
 			{
 				"type": "DUNGEON",
-				"location": "Shadow Temple Entryway"
+				"location": "Shadow Temple"
 			},
 			{
 				"type": "DUNGEON",
-				"location": "Spirit Temple Lobby"
+				"location": "Spirit Temple"
 			},
 			{
 				"type": "DUNGEON",
-				"location": "Gerudo Training Grounds Lobby"
+				"location": "Gerudo Training Grounds"
 			}
 		],
 		"grottos": [
@@ -576,6 +588,10 @@
 			},
 			{
 				"type": "INDOOR",
+				"location": "Links House"
+			},
+			{
+				"type": "INDOOR",
 				"location": "Mountain Summit Fairy"
 			},
 			{
@@ -673,6 +689,14 @@
 			{
 				"type": "INDOOR",
 				"location": "Colossus Fairy"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Kakariko Potion Shop Front"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Kakariko Potion Shop Back"
 			},
 			{
 				"type": "INDOOR",

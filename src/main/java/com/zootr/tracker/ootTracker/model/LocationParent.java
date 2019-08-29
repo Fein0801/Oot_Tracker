@@ -1,51 +1,51 @@
 package com.zootr.tracker.ootTracker.model;
 
-import java.util.ArrayList;
+import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class LocationParent {
 
-	private ArrayList<Location> dungeons;
-	private ArrayList<Location> grottos;
-	private ArrayList<Location> indoors;
-	private ArrayList<Location> overworld;
+	private List<Location> dungeons;
+	private List<Location> grottos;
+	private List<Location> indoors;
+	private List<Location> overworld;
 
 	public LocationParent() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public ArrayList<Location> getDungeons() {
+	public List<Location> getDungeons() {
 		return dungeons;
 	}
 
-	public void setDungeons(ArrayList<Location> dungeons) {
+	public void setDungeons(List<Location> dungeons) {
 		this.dungeons = dungeons;
 	}
 
-	public ArrayList<Location> getGrottos() {
+	public List<Location> getGrottos() {
 		return grottos;
 	}
 
-	public void setGrottos(ArrayList<Location> grottos) {
+	public void setGrottos(List<Location> grottos) {
 		this.grottos = grottos;
 	}
 
-	public ArrayList<Location> getIndoors() {
+	public List<Location> getIndoors() {
 		return indoors;
 	}
 
-	public void setIndoors(ArrayList<Location> indoors) {
+	public void setIndoors(List<Location> indoors) {
 		this.indoors = indoors;
 	}
 
-	public ArrayList<Location> getOverworld() {
+	public List<Location> getOverworld() {
 		return overworld;
 	}
 
-	public void setOverworld(ArrayList<Location> overworld) {
+	public void setOverworld(List<Location> overworld) {
 		this.overworld = overworld;
 	}
 
