@@ -4,16 +4,16 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Region extends Location {
+public class Region implements Comparable<Region> {
 
-	public static final LocationType TYPE = LocationType.REGION;
+	private static final LocationType TYPE = LocationType.REGION;
 	@JsonProperty("to")
 	private String region;
 	@JsonProperty("from")
 	private String origin;
 
 	public Region() {
-		super.setType(TYPE);
+		
 	}
 
 	public String getRegion() {
@@ -31,5 +31,21 @@ public class Region extends Location {
 	public void setOrigin(String origin) {
 		this.origin = origin;
 	}
+	
+	public LocationType getType() {
+		return TYPE;
+	}
+
+	@Override
+	public String toString() {
+		return "" + region + " FROM " + origin;
+	}
+
+	@Override
+	public int compareTo(Region o) {
+		return this.region.compareTo(o.region);
+	}
+	
+	
 
 }

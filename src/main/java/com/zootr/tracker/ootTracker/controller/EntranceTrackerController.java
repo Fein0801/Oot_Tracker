@@ -19,6 +19,7 @@ import com.zootr.tracker.ootTracker.model.EntranceRuleSet;
 import com.zootr.tracker.ootTracker.model.ListShrinker;
 import com.zootr.tracker.ootTracker.model.Location;
 import com.zootr.tracker.ootTracker.model.ParentObject;
+import com.zootr.tracker.ootTracker.model.Region;
 
 @Controller
 public class EntranceTrackerController {
@@ -33,6 +34,8 @@ public class EntranceTrackerController {
 	private List<Location> grottoNames;
 	private List<Entrance> buildingEntrances;
 	private List<Location> buildingNames;
+	private List<Entrance> overworldEntrances;
+	private List<Region> regions;
 
 	@RequestMapping("/list-entrances")
 	public ModelAndView listEntrances() {
@@ -75,6 +78,10 @@ public class EntranceTrackerController {
 			buildingNames = parent.getLocations().getIndoors();
 			Collections.sort(buildingNames);
 			buildingNames = ListShrinker.trimGreatFairyLocations(buildingNames);
+			overworldEntrances = parent.getEntrances().getOverworld();
+			Collections.sort(overworldEntrances);
+			regions = parent.getLocations().getOverworld();
+			Collections.sort(regions);
 
 			if (rules == EntranceRuleSet.ALL_INDOORS || rules == EntranceRuleSet.ALL_OVERWORLD) {
 				mv.addObject("grottoEntrances", grottoEntrances);
@@ -82,6 +89,11 @@ public class EntranceTrackerController {
 				mv.addObject("buildingEntrances", buildingEntrances);
 				mv.addObject("buildingNames", buildingNames);
 				mv.addObject("indoors", 1);
+				if(rules == EntranceRuleSet.ALL_OVERWORLD) {
+					mv.addObject("overworldEntrances", overworldEntrances);
+					mv.addObject("regions", regions);
+					mv.addObject("overworld", 1);
+				}
 			}
 			mv.addObject("dungeonEntrances", dungeonEntrances);
 			mv.addObject("dungeonNames", dungeonNames);

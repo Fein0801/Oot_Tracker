@@ -86,5 +86,27 @@
 		</c:forEach>
 	</table>
 </c:if>
+<c:if test="${overworld == 1}">
+	<h1>Overworld</h1>
+	<table class="table">
+		<tr>
+			<th>Entrance</th>
+			<th>Region</th>
+		</tr>
+		<c:forEach var="entrance" items="${overworldEntrances}">
+		<tr>
+			<td>${entrance.entrance}</td>
+			<td>
+				<select>
+		    		<option></option>
+		    		<c:forEach var="entrance" items="${regions}">
+		    			<option>${entrance}</option>
+		    		</c:forEach>
+	    		</select>
+			</td>
+		</tr>
+		</c:forEach>
+	</table>
+</c:if>
 </body>
 </html>

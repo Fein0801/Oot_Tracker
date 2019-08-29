@@ -348,9 +348,230 @@
 			{
 				"type": "INDOOR",
 				"entrance": "Zoras Fountain -> Zoras Fountain Fairy"
+			},
+			{
+				"type": "INDOOR",
+				"entrance": "Kakariko Village -> Windmill"
 			}
 		],
-		"overworld": []
+		"overworld": [
+			{
+				"type": "OVERWORLD",
+				"entrance": "Castle Grounds -> Castle Town"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Castle Town -> Castle Grounds"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Castle Town -> Castle Town Entrance"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Castle Town -> Temple of Time Exterior"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Castle Town Entrance -> Castle Town"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Castle Town Entrance -> Hyrule Field"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Darunias Chamber -> Death Mountain Crater Lower Local"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Death Mountain -> Goron City"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Death Mountain -> Kakariko Village Behind Gate"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Death Mountain Crater Lower Nearby -> Darunias Chamber"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Death Mountain Crater Upper Nearby -> Death Mountain Summit"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Death Mountain Summit -> Death Mountain Crater Upper Local"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Desert Colossus -> Haunted Wasteland Near Colossus"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Gerudo Fortress -> Gerudo Valley Far Side"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Gerudo Fortress Outside Gate -> Haunted Wasteland Near Fortress"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Gerudo Valley -> Hyrule Field"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Gerudo Valley Far Side -> Gerudo Fortress"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Goron City -> Death Mountain"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Goron City Woods Warp -> Lost Woods"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Graveyard -> Kakariko Village"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Haunted Wasteland Near Colossus -> Desert Colossus"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Haunted Wasteland Near Fortress -> Gerudo Fortress Outside Gate"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Hyrule Field -> Castle Town Entrance"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Hyrule Field -> Gerudo Valley"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Hyrule Field -> Kakariko Village"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Hyrule Field -> Lake Hylia"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Hyrule Field -> Lon Lon Ranch"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Hyrule Field -> Lost Woods Bridge"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Hyrule Field -> Zora River Front"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Kakariko Village -> Graveyard"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Kakariko Village -> Hyrule Field"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Kakariko Village Behind Gate -> Death Mountain"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Kokiri Forest -> Lost Woods"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Kokiri Forest -> Lost Woods Bridge From Forest"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Lake Hylia -> Hyrule Field"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Lake Hylia -> Zoras Domain"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Lon Lon Ranch -> Hyrule Field"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Lost Woods -> Goron City Woods Warp"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Lost Woods -> Zora River"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Lost Woods Beyond Mido -> Sacred Forest Meadow Entryway"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Lost Woods Bridge -> Hyrule Field"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Lost Woods Bridge -> Kokiri Forest"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Lost Woods Forest Exit -> Kokiri Forest"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Sacred Forest Meadow Entryway -> Lost Woods Beyond Mido"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Temple of Time Exterior -> Castle Town"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Zora River -> Lost Woods"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Zora River Behind Waterfall -> Zoras Domain"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Zora River Front -> Hyrule Field"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Zoras Domain -> Lake Hylia"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Zoras Domain -> Zora River Behind Waterfall"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Zoras Domain Behind King Zora -> Zoras Fountain"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Zoras Fountain -> Zoras Domain Behind King Zora"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Death Mountain Summit Owl Flight -> Kakariko Village"
+			},
+			{
+				"type": "OVERWORLD",
+				"entrance": "Lake Hylia Owl Flight -> Hyrule Field"
+			}
+		]
 	},
 	"locations": {
 		"dungeons": [
@@ -701,8 +922,225 @@
 			{
 				"type": "INDOOR",
 				"location": "Castle Town Mask Shop"
+			},
+			{
+				"type": "INDOOR",
+				"location": "Windmill"
 			}
 		],
-		"overworld": []
+		"overworld": [
+			{
+				"to": "Zora River",
+				"from": "Lost Woods"
+			},
+			{
+				"to": "Hyrule Field",
+				"from": "Zora River Front"
+			},
+			{
+				"to": "Goron City",
+				"from": "Death Mountain"
+			},
+			{
+				"to": "Kakariko Village",
+				"from": "Hyrule Field"
+			},
+			{
+				"to": "Goron City Woods Warp",
+				"from": "Lost Woods"
+			},
+			{
+				"to": "Lost Woods",
+				"from": "Kokiri Forest"
+			},
+			{
+				"to": "Zora River Behind Waterfall",
+				"from": "Zoras Domain"
+			},
+			{
+				"to": "Haunted Wasteland Near Colossus",
+				"from": "Desert Colossus"
+			},
+			{
+				"to": "Hyrule Field",
+				"from": "Kakariko Village"
+			},
+			{
+				"to": "Lost Woods Beyond Mido",
+				"from": "Sacred Forest Meadow Entryway"
+			},
+			{
+				"to": "Zoras Domain",
+				"from": "Zora River Behind Waterfall"
+			},
+			{
+				"to": "Kakariko Village Behind Gate",
+				"from": "Death Mountain"
+			},
+			{
+				"to": "Gerudo Valley",
+				"from": "Hyrule Field"
+			},
+			{
+				"to": "Kokiri Forest",
+				"from": "Lost Woods Forest Exit"
+			},
+			{
+				"to": "Zoras Domain Behind King Zora",
+				"from": "Zoras Fountain"
+			},
+			{
+				"to": "Desert Colossus",
+				"from": "Haunted Wasteland Near Colossus"
+			},
+			{
+				"to": "Lost Woods Bridge From Forest",
+				"from": "Kokiri Forest"
+			},
+			{
+				"to": "Castle Town",
+				"from": "Castle Town Entrance"
+			},
+			{
+				"to": "Castle Town Entrance",
+				"from": "Castle Town"
+			},
+			{
+				"to": "Lake Hylia",
+				"from": "Zoras Domain"
+			},
+			{
+				"to": "Death Mountain",
+				"from": "Goron City"
+			},
+			{
+				"to": "Hyrule Field",
+				"from": "Lon Lon Ranch"
+			},
+			{
+				"to": "Zoras Fountain",
+				"from": "Zoras Domain Behind King Zora"
+			},
+			{
+				"to": "Zora River Front",
+				"from": "Hyrule Field"
+			},
+			{
+				"to": "Death Mountain",
+				"from": "Kakariko Village Behind Gate"
+			},
+			{
+				"to": "Lost Woods Bridge",
+				"from": "Hyrule Field"
+			},
+			{
+				"to": "Haunted Wasteland Near Fortress",
+				"from": "Gerudo Fortress Outside Gate"
+			},
+			{
+				"to": "Zoras Domain",
+				"from": "Lake Hylia"
+			},
+			{
+				"to": "Castle Town",
+				"from": "Castle Grounds"
+			},
+			{
+				"to": "Sacred Forest Meadow Entryway",
+				"from": "Lost Woods Beyond Mido"
+			},
+			{
+				"to": "Castle Town",
+				"from": "Temple of Time Exterior"
+			},
+			{
+				"to": "Death Mountain Summit",
+				"from": "Death Mountain Crater Upper Nearby"
+			},
+			{
+				"to": "Gerudo Fortress",
+				"from": "Gerudo Valley Far Side"
+			},
+			{
+				"to": "Temple of Time Exterior",
+				"from": "Castle Town"
+			},
+			{
+				"to": "Lost Woods",
+				"from": "Goron City Woods Warp"
+			},
+			{
+				"to": "Graveyard",
+				"from": "Kakariko Village"
+			},
+			{
+				"to": "Lost Woods",
+				"from": "Zora River"
+			},
+			{
+				"to": "Lake Hylia",
+				"from": "Hyrule Field"
+			},
+			{
+				"to": "Lon Lon Ranch",
+				"from": "Hyrule Field"
+			},
+			{
+				"to": "Death Mountain Crater Lower Local",
+				"from": "Darunias Chamber"
+			},
+			{
+				"to": "Hyrule Field",
+				"from": "Lake Hylia"
+			},
+			{
+				"to": "Gerudo Valley Far Side",
+				"from": "Gerudo Fortress"
+			},
+			{
+				"to": "Castle Town Entrance",
+				"from": "Hyrule Field"
+			},
+			{
+				"to": "Kakariko Village",
+				"from": "Graveyard"
+			},
+			{
+				"to": "Kokiri Forest",
+				"from": "Lost Woods Bridge"
+			},
+			{
+				"to": "Castle Grounds",
+				"from": "Castle Town"
+			},
+			{
+				"to": "Darunias Chamber",
+				"from": "Death Mountain Crater Lower Nearby"
+			},
+			{
+				"to": "Hyrule Field",
+				"from": "Gerudo Valley"
+			},
+			{
+				"to": "Death Mountain Crater Upper Local",
+				"from": "Death Mountain Summit"
+			},
+			{
+				"to": "Gerudo Fortress Outside Gate",
+				"from": "Haunted Wasteland Near Fortress"
+			},
+			{
+				"to": "Hyrule Field",
+				"from": "Castle Town Entrance"
+			},
+			{
+				"to": "Gerudo Fortress",
+				"from": "Gerudo Valley Far Side"
+			},
+			{
+				"to": "Temple of Time Exterior",
+				"from": "Castle Town"
+			}
+		]
 	}
 }

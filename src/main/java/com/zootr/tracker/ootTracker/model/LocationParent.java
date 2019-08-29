@@ -10,7 +10,7 @@ public class LocationParent {
 	private List<Location> dungeons;
 	private List<Location> grottos;
 	private List<Location> indoors;
-	private List<Location> overworld;
+	private List<Region> overworld;
 
 	public LocationParent() {
 		super();
@@ -41,11 +41,11 @@ public class LocationParent {
 		this.indoors = indoors;
 	}
 
-	public List<Location> getOverworld() {
+	public List<Region> getOverworld() {
 		return overworld;
 	}
 
-	public void setOverworld(List<Location> overworld) {
+	public void setOverworld(List<Region> overworld) {
 		this.overworld = overworld;
 	}
 
