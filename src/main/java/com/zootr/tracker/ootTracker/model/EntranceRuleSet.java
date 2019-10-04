@@ -1,5 +1,5 @@
 package com.zootr.tracker.ootTracker.model;
 
 public enum EntranceRuleSet {
-	DUNGEONS_ONLY, ALL_INDOORS, ALL_OVERWORLD
+	DUNGEONS_ONLY, SIMPLE_INDOORS, ALL_INDOORS, ALL_OVERWORLD
 }
